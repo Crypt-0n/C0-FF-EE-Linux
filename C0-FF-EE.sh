@@ -1,3 +1,23 @@
+echo "                                                       "
+echo "           ##################        ) )               "
+echo "           ##################       ( (                "
+echo "           #### C0-FF-EE ####        ) )               "
+echo "           ##################      (----)-)            "
+echo "           ##################       \__/-'             "
+echo "                                                       "
+echo " Crypt-0n Forensic Framework for Evidence Enumeration. "
+echo "                                                       "
+echo "    Auteur: Julien LEQUEN - jlequen[AT]crypt-0n.fr     "
+echo "                                                       "
+echo "     GNU General Public License version 3 (GPLv3)      "
+echo "_______________________________________________________"
+echo "                                                       "
+echo "                                                       "
+
+if [ -d ./logs ] ; then
+  rm -r ./logs
+fi
+
 mkdir ./logs/
 
 uname -a > ./logs/uname.txt
